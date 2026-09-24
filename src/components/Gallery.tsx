@@ -46,33 +46,33 @@ export default function Gallery() {
           </figcaption>
         </figure>
 
-        {/* Photo 3: Symmetric Courts View */}
+        {/* Photo 3: Courts Overview */}
         <figure className="relative min-h-[340px] md:min-h-[420px] overflow-hidden rounded-2xl border border-navy-300/20 group">
           <Image 
-            src="/images/baza-klub-korty-symetria.jpg" 
-            alt="Korty Baza Padel Club" 
+            src="/images/baza-klub-korty-strefa.jpg" 
+            alt="Korty turniejowe Baza Padel Club" 
             fill 
             className="object-cover group-hover:scale-105 transition-transform duration-700" 
           />
           <div className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/20 to-transparent"></div>
           <figcaption className="absolute z-10 left-6 bottom-6 text-white font-bold tracking-wide flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-gold-400"></span>
-            5 turniejowych kortów Mondo
+            Widok na korty turniejowe
           </figcaption>
         </figure>
 
-        {/* Photo 4: Lounge Bar Area */}
+        {/* Photo 4: Interior with mirror */}
         <figure className="relative min-h-[340px] md:min-h-[420px] overflow-hidden rounded-2xl border border-navy-300/20 group">
           <Image 
-            src="/images/baza-klub-lounge-bar.jpg" 
-            alt="Strefa lounge i bar Baza Padel" 
+            src="/images/baza-klub-wnetrze-lustro.jpg" 
+            alt="Wnętrze strefy klubowej Baza Padel" 
             fill 
             className="object-cover group-hover:scale-105 transition-transform duration-700" 
           />
           <div className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/20 to-transparent"></div>
           <figcaption className="absolute z-10 left-6 bottom-6 text-white font-bold tracking-wide flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-navy-300"></span>
-            Strefa chillout & bar
+            Design i strefa chillout
           </figcaption>
         </figure>
 

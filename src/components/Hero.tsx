@@ -60,11 +60,11 @@ export default function Hero() {
       {/* Hero Visual */}
       <div className="relative flex-1 bg-navy-900 min-h-[460px] lg:min-h-full" aria-label="Gra na nowoczesnym korcie">
         <Image
-          src="/images/baza-gra.jpg"
-          alt="Dynamiczna gra na korcie Baza Padel Club"
+          src="/images/baza-klub-korty-symetria.jpg"
+          alt="Profesjonalne korty turniejowe Baza Padel Club"
           fill
           priority
-          className="object-cover object-[56%_center] saturate-[0.88] contrast-[1.05]"
+          className="object-cover object-center saturate-[0.95] contrast-[1.05]"
         />
         <div className="absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-r from-navy-950 via-navy-900/40 to-transparent"></div>
 

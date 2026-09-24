@@ -4,10 +4,10 @@ export default function ClubShowcase() {
   return (
     <section className="relative min-h-[660px] md:min-h-[730px] overflow-hidden bg-navy-950 border-b border-navy-300/15" aria-label="Baza Padel Club od środka">
       <Image
-        src="/images/baza-wnetrze.jpg"
-        alt="Widok przez nowoczesne korty Baza Padel Club podczas wydarzenia"
+        src="/images/baza-klub-lounge-bar.jpg"
+        alt="Widok na nowoczesny klub i korty Baza Padel Club"
         fill
-        className="object-cover object-[56%_center] saturate-[0.85] contrast-[1.05]"
+        className="object-cover object-[center_40%] saturate-[0.95] contrast-[1.05]"
       />
       <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-navy-950/95 via-navy-950/70 to-navy-900/15"></div>
       
