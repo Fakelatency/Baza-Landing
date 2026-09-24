@@ -1,22 +1,25 @@
 import type { AppProps } from "next/app";
-import { Archivo_Black, Inter } from "next/font/google";
+import { Stack_Sans_Notch, Montserrat } from "next/font/google";
 import "@/styles/globals.css";
 
-const archivoBlack = Archivo_Black({
-  weight: "400",
+const stackSansNotch = Stack_Sans_Notch({
   subsets: ["latin", "latin-ext"],
-  variable: "--font-archivo-black",
+  variable: "--font-heading",
+  weight: ["400", "600", "700"],
+  display: "swap",
 });
 
-const inter = Inter({
+const montserrat = Montserrat({
   subsets: ["latin", "latin-ext"],
-  variable: "--font-inter",
+  variable: "--font-sans",
+  weight: ["400", "500", "600", "700", "800"],
+  display: "swap",
 });
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <div
-      className={`${archivoBlack.variable} ${inter.variable} font-sans antialiased bg-navy-950 text-[#e8eef4] selection:bg-gold-500 selection:text-navy-950 min-h-screen`}
+      className={`${stackSansNotch.variable} ${montserrat.variable} font-sans antialiased bg-navy-950 text-[#e8eef4] selection:bg-[#ff4900] selection:text-white min-h-screen`}
     >
       <Component {...pageProps} />
     </div>
