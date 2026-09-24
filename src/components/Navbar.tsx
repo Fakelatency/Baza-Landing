@@ -38,6 +38,12 @@ export default function Navbar() {
         <Link href="#klub" className="hover:text-gold-400 transition-colors">
           Klub
         </Link>
+        <Link
+          href="/turnieje"
+          className="text-gold-300 hover:text-gold-400 transition-colors flex items-center gap-1 font-bold"
+        >
+          Turnieje
+        </Link>
         <Link href="#opinie" className="hover:text-gold-400 transition-colors">
           Opinie
         </Link>
@@ -52,6 +58,12 @@ export default function Navbar() {
       </nav>
 
       <div className="flex items-center gap-3">
+        <Link
+          href="/turnieje"
+          className="hidden sm:inline-flex lg:hidden text-xs font-bold text-gold-300 hover:text-gold-400 px-3 py-2 rounded-xl bg-navy-800/80 border border-gold-500/25 transition-all"
+        >
+          Turnieje
+        </Link>
         <a
           href="https://playmore.pl/klub/baza-padel-club/"
           target="_blank"

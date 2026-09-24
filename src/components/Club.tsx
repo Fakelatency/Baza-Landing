@@ -33,7 +33,10 @@ export default function Club() {
           <div className="absolute bottom-0 left-0 right-0 p-7 z-10">
             <span className="text-gold-400 text-2xl mb-2 block">◎</span>
             <h3 className="font-archivo text-2xl mb-3 tracking-tight text-white">Turnieje na żywo</h3>
-            <p className="text-navy-100 text-sm leading-relaxed">Czytelne wyniki, sportowe emocje i rozgrywki, które integrują graczy na każdym poziomie.</p>
+            <p className="text-navy-100 text-sm leading-relaxed mb-3">Czytelne wyniki, sportowe emocje i rozgrywki, które integrują graczy na każdym poziomie.</p>
+            <a href="/turnieje" className="inline-flex items-center gap-1.5 text-xs font-bold text-gold-400 hover:text-gold-300 transition-colors uppercase tracking-wider border-b border-gold-400/40 pb-0.5">
+              Przejdź do turniejów →
+            </a>
           </div>
         </div>
 
