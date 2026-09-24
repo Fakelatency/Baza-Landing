@@ -34,7 +34,7 @@ export default function Coaches() {
         </figcaption>
       </figure>
 
-      <div className="grid md:grid-cols-3 gap-6 md:gap-8 mb-12">
+      <div className="grid md:grid-cols-2 gap-6 md:gap-8 mb-12 max-w-4xl">
         {/* Coach 1 */}
         <article className="glass-card flex flex-col group overflow-hidden">
           <div className="relative h-[280px] md:h-[320px] overflow-hidden bg-navy-900">
@@ -72,26 +72,6 @@ export default function Coaches() {
             <h3 className="font-archivo text-2xl md:text-3xl leading-[0.95] tracking-tight mb-4 text-white">Klaudia</h3>
             <p className="text-navy-200 text-sm leading-relaxed mb-6 flex-1">Łączy konkretne wskazówki z dobrą energią. Idealny wybór na pierwsze treningi i dalszy rozwój.</p>
             <a href="#kontakt" className="inline-block text-gold-400 text-sm font-bold hover:text-gold-300 border-b border-gold-400/40 pb-1 w-fit transition-colors">Umów trening z Klaudią →</a>
-          </div>
-        </article>
-
-        {/* Coach 3 */}
-        <article className="glass-card flex flex-col group overflow-hidden">
-          <div className="relative h-[280px] md:h-[320px] overflow-hidden bg-navy-900">
-            <Image 
-              src="/images/baza-detal-bw.jpg" 
-              alt="Jacek Brończyk" 
-              fill 
-              className="object-cover saturate-[0.5] contrast-[1.1] opacity-50 group-hover:scale-105 transition-transform duration-500" 
-            />
-            <span className="absolute left-6 bottom-3 font-archivo text-[86px] leading-[0.8] text-gold-400/20 pointer-events-none select-none">JB</span>
-            <span className="absolute left-6 top-6 badge badge-gold">TAKTYKA</span>
-          </div>
-          <div className="p-7 flex-1 flex flex-col">
-            <span className="text-navy-300 text-xs font-bold uppercase tracking-wider mb-2">Trener • strategia i ustawienie</span>
-            <h3 className="font-archivo text-2xl md:text-3xl leading-[0.95] tracking-tight mb-4 text-white">Jacek<br />Brończyk</h3>
-            <p className="text-navy-200 text-sm leading-relaxed mb-6 flex-1">Uczy czytać grę, lepiej ustawiać się na korcie i podejmować skuteczne decyzje pod presją.</p>
-            <a href="#kontakt" className="inline-block text-gold-400 text-sm font-bold hover:text-gold-300 border-b border-gold-400/40 pb-1 w-fit transition-colors">Umów trening z Jackiem →</a>
           </div>
         </article>
       </div>

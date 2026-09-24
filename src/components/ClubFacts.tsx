@@ -29,7 +29,7 @@ export default function ClubFacts() {
         
         {/* Fact 3 */}
         <div className="min-h-[126px] md:min-h-[145px] p-6 lg:px-[3vw] flex flex-col md:flex-row md:items-center gap-2 md:gap-4 border-r border-navy-300/15">
-          <strong className="font-archivo text-[32px] md:text-[38px] text-gold-400 tracking-[-2px] leading-none">3</strong>
+          <strong className="font-archivo text-[32px] md:text-[38px] text-gold-400 tracking-[-2px] leading-none">2</strong>
           <span className="text-[13px] leading-[1.35] font-semibold text-navy-100">
             trenerów dla<br />każdego poziomu
           </span>
