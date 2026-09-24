@@ -30,7 +30,7 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mb-14">
           <a
-            href="https://playmore.pl/klub/baza-padel-club/"
+            href="https://kluby.org/baza-padel-club"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"

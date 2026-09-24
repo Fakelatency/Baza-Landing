@@ -37,14 +37,14 @@ export default function Coaches() {
       <div className="grid md:grid-cols-2 gap-6 md:gap-8 mb-12 max-w-4xl">
         {/* Coach 1 */}
         <article className="glass-card flex flex-col group overflow-hidden">
-          <div className="relative h-[280px] md:h-[320px] overflow-hidden bg-navy-900">
+          <div className="relative h-[320px] md:h-[360px] overflow-hidden bg-navy-900">
             <Image 
-              src="/images/baza-siatka.jpg" 
-              alt="Krzysztof Brończyk" 
+              src="/images/trener-krzysztof.jpg" 
+              alt="Krzysztof Brończyk — trener Baza Padel" 
               fill 
-              className="object-cover saturate-[0.5] contrast-[1.1] opacity-50 group-hover:scale-105 transition-transform duration-500" 
+              className="object-cover object-[center_18%] group-hover:scale-105 transition-transform duration-500" 
             />
-            <span className="absolute left-6 bottom-3 font-archivo text-[86px] leading-[0.8] text-gold-400/20 pointer-events-none select-none">KB</span>
+            <div className="absolute inset-0 bg-gradient-to-t from-navy-950/80 via-transparent to-transparent"></div>
             <span className="absolute left-6 top-6 badge badge-gold">ENERGIA</span>
           </div>
           <div className="p-7 flex-1 flex flex-col">
@@ -57,14 +57,14 @@ export default function Coaches() {
 
         {/* Coach 2 */}
         <article className="glass-card flex flex-col group overflow-hidden">
-          <div className="relative h-[280px] md:h-[320px] overflow-hidden bg-navy-900">
+          <div className="relative h-[320px] md:h-[360px] overflow-hidden bg-navy-900">
             <Image 
-              src="/images/baza-logo-siatka.jpg" 
-              alt="Klaudia" 
+              src="/images/trener-klaudia.jpg" 
+              alt="Klaudia — trenerka Baza Padel" 
               fill 
-              className="object-cover saturate-[0.5] contrast-[1.1] opacity-50 group-hover:scale-105 transition-transform duration-500" 
+              className="object-cover object-[center_18%] group-hover:scale-105 transition-transform duration-500" 
             />
-            <span className="absolute left-6 bottom-3 font-archivo text-[86px] leading-[0.8] text-navy-200/20 pointer-events-none select-none">K</span>
+            <div className="absolute inset-0 bg-gradient-to-t from-navy-950/80 via-transparent to-transparent"></div>
             <span className="absolute left-6 top-6 badge badge-blue">FLOW</span>
           </div>
           <div className="p-7 flex-1 flex flex-col">

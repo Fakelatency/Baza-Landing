@@ -18,7 +18,7 @@ export default function Club() {
 
       <div className="grid md:grid-cols-3 gap-6 md:gap-8">
         <div className="glass-card relative min-h-[420px] overflow-hidden group">
-          <Image src="/images/baza-kawa.jpg" alt="Ekspres i firmowe filiżanki" fill className="object-cover saturate-[0.85] group-hover:scale-105 transition-transform duration-700" />
+          <Image src="/images/baza-klub-bar-detal.jpg" alt="Bar w Baza Padel Club" fill className="object-cover object-[center_35%] saturate-[0.95] group-hover:scale-105 transition-transform duration-700" />
           <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/60 to-transparent"></div>
           <div className="absolute bottom-0 left-0 right-0 p-7 z-10">
             <span className="text-gold-400 text-2xl mb-2 block">☕</span>
@@ -41,7 +41,7 @@ export default function Club() {
         </div>
 
         <div className="glass-card relative min-h-[420px] overflow-hidden group">
-          <Image src="/images/baza-otwarcie.jpg" alt="Uroczyste otwarcie" fill className="object-cover saturate-[0.85] group-hover:scale-105 transition-transform duration-700" />
+          <Image src="/images/baza-klub-chillout.jpg" alt="Strefa chillout Baza Padel Club" fill className="object-cover saturate-[0.95] group-hover:scale-105 transition-transform duration-700" />
           <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/60 to-transparent"></div>
           <div className="absolute bottom-0 left-0 right-0 p-7 z-10">
             <span className="text-gold-400 text-2xl mb-2 block">☺</span>

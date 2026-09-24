@@ -65,7 +65,7 @@ export default function Navbar() {
           Turnieje
         </Link>
         <a
-          href="https://playmore.pl/klub/baza-padel-club/"
+          href="https://kluby.org/baza-padel-club"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-primary text-xs md:text-sm !py-2.5 !px-5"

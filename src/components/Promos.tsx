@@ -46,7 +46,7 @@ export default function Promos() {
               Wybierz dogodny termin online. Z kartą partnerską możesz otrzymać rabat 15 zł za każdą odbijaną kartę.
             </p>
           </div>
-          <a href="https://playmore.pl/klub/baza-padel-club/" target="_blank" rel="noopener noreferrer" className="font-bold text-navy-200 hover:text-white transition-colors inline-flex items-center gap-1 text-sm border-b border-navy-300/40 pb-1 w-fit">
+          <a href="https://kluby.org/baza-padel-club" target="_blank" rel="noopener noreferrer" className="font-bold text-navy-200 hover:text-white transition-colors inline-flex items-center gap-1 text-sm border-b border-navy-300/40 pb-1 w-fit">
             Sprawdź dostępność →
           </a>
         </article>

@@ -9,7 +9,7 @@ export default function QuickBook() {
         Gotowy do gry?
       </span>
       <a
-        href="https://playmore.pl/klub/baza-padel-club/"
+        href="https://kluby.org/baza-padel-club"
         target="_blank"
         rel="noopener noreferrer"
         className="btn-primary !py-2.5 !px-5 !rounded-xl text-xs md:text-sm whitespace-nowrap"

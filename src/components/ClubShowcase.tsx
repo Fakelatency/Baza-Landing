@@ -20,7 +20,7 @@ export default function ClubShowcase() {
           Profesjonalne korty, przejrzyste rozgrywki i warunki, w których chce się zostać na kolejny set.
         </p>
         <a
-          href="https://playmore.pl/klub/baza-padel-club/"
+          href="https://kluby.org/baza-padel-club"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-primary"

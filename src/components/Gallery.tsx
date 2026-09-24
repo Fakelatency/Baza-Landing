@@ -11,44 +11,83 @@ export default function Gallery() {
           </h2>
         </div>
         <p className="text-navy-200 max-w-md mt-6 md:mt-0 text-base md:text-lg">
-          Tak wygląda klub, w którym gra łączy się z wydarzeniami, relacjami i prawdziwą społecznością.
+          Tak wygląda klub, w którym najwyższa jakość kortów łączy się z designem, relaksem i prawdziwą społecznością.
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-5">
-        <figure className="relative min-h-[340px] md:min-h-[560px] md:col-span-2 overflow-hidden rounded-2xl border border-navy-300/20 group">
-          <Image src="/images/baza-lokalizacja.jpg" alt="Baza Padel Club z lotu ptaka" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+        {/* Main wide photo: Aerial Location */}
+        <figure className="relative min-h-[340px] md:min-h-[480px] md:col-span-2 lg:col-span-2 overflow-hidden rounded-2xl border border-navy-300/20 group">
+          <Image 
+            src="/images/baza-lokalizacja.jpg" 
+            alt="Baza Padel Club z lotu ptaka" 
+            fill 
+            className="object-cover group-hover:scale-105 transition-transform duration-700" 
+          />
           <div className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/20 to-transparent"></div>
           <figcaption className="absolute z-10 left-6 bottom-6 text-white font-bold tracking-wide flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-gold-400"></span>
             Grudziądz • Droga Jeziorna 4
           </figcaption>
         </figure>
-        
-        <figure className="relative min-h-[380px] md:min-h-[440px] overflow-hidden rounded-2xl border border-navy-300/20 group">
-          <Image src="/images/baza-turniej.jpg" alt="Uczestnicy obserwujący przebieg turnieju" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
+
+        {/* Photo 2: Neon Sign #BazaPadel */}
+        <figure className="relative min-h-[320px] md:min-h-[480px] overflow-hidden rounded-2xl border border-navy-300/20 group">
+          <Image 
+            src="/images/baza-klub-napis.jpg" 
+            alt="#BazaPadel podświetlany napis" 
+            fill 
+            className="object-cover group-hover:scale-105 transition-transform duration-700" 
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/20 to-transparent"></div>
+          <figcaption className="absolute z-10 left-6 bottom-6 text-white font-bold tracking-wide flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-gold-400"></span>
+            #BazaPadel
+          </figcaption>
+        </figure>
+
+        {/* Photo 3: Symmetric Courts View */}
+        <figure className="relative min-h-[340px] md:min-h-[420px] overflow-hidden rounded-2xl border border-navy-300/20 group">
+          <Image 
+            src="/images/baza-klub-korty-symetria.jpg" 
+            alt="Korty Baza Padel Club" 
+            fill 
+            className="object-cover group-hover:scale-105 transition-transform duration-700" 
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/20 to-transparent"></div>
+          <figcaption className="absolute z-10 left-6 bottom-6 text-white font-bold tracking-wide flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-gold-400"></span>
+            5 turniejowych kortów Mondo
+          </figcaption>
+        </figure>
+
+        {/* Photo 4: Lounge Bar Area */}
+        <figure className="relative min-h-[340px] md:min-h-[420px] overflow-hidden rounded-2xl border border-navy-300/20 group">
+          <Image 
+            src="/images/baza-klub-lounge-bar.jpg" 
+            alt="Strefa lounge i bar Baza Padel" 
+            fill 
+            className="object-cover group-hover:scale-105 transition-transform duration-700" 
+          />
           <div className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/20 to-transparent"></div>
           <figcaption className="absolute z-10 left-6 bottom-6 text-white font-bold tracking-wide flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-navy-300"></span>
-            Turnieje i wyniki na żywo
+            Strefa chillout & bar
           </figcaption>
         </figure>
 
-        <figure className="relative min-h-[380px] md:min-h-[440px] overflow-hidden rounded-2xl border border-navy-300/20 group">
-          <Image src="/images/baza-padel-club.jpg" alt="Duża piłka z logo Baza Padel Club przed wejściem" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
+        {/* Photo 5: Padel Net Detail */}
+        <figure className="relative min-h-[340px] md:min-h-[420px] overflow-hidden rounded-2xl border border-navy-300/20 group">
+          <Image 
+            src="/images/baza-klub-siatka.jpg" 
+            alt="Detal oficjalnej siatki Baza Padel" 
+            fill 
+            className="object-cover group-hover:scale-105 transition-transform duration-700" 
+          />
           <div className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/20 to-transparent"></div>
           <figcaption className="absolute z-10 left-6 bottom-6 text-white font-bold tracking-wide flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-gold-400"></span>
-            Tu zaczyna się gra
-          </figcaption>
-        </figure>
-
-        <figure className="relative min-h-[380px] md:min-h-[560px] md:col-span-2 overflow-hidden rounded-2xl border border-navy-300/20 group">
-          <Image src="/images/baza-korty-team.jpg" alt="Zawodnicy Baza Padel Club na podium" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
-          <div className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/20 to-transparent"></div>
-          <figcaption className="absolute z-10 left-6 bottom-6 text-white font-bold tracking-wide flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-gold-400"></span>
-            Rywalizacja w dobrym stylu
+            Turniejowy standard i detale
           </figcaption>
         </figure>
       </div>
