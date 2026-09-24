@@ -1,5 +1,5 @@
 import type { AppProps } from "next/app";
-import { Archivo_Black, DM_Sans } from "next/font/google";
+import { Archivo_Black, Inter } from "next/font/google";
 import "@/styles/globals.css";
 
 const archivoBlack = Archivo_Black({
@@ -8,14 +8,16 @@ const archivoBlack = Archivo_Black({
   variable: "--font-archivo-black",
 });
 
-const dmSans = DM_Sans({
+const inter = Inter({
   subsets: ["latin", "latin-ext"],
-  variable: "--font-dm-sans",
+  variable: "--font-inter",
 });
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div className={`${archivoBlack.variable} ${dmSans.variable} font-sans antialiased selection:bg-lime selection:text-navy`}>
+    <div
+      className={`${archivoBlack.variable} ${inter.variable} font-sans antialiased bg-navy-950 text-[#e8eef4] selection:bg-gold-500 selection:text-navy-950 min-h-screen`}
+    >
       <Component {...pageProps} />
     </div>
   );
