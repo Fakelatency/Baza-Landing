@@ -38,12 +38,12 @@ export default function Navbar() {
         <Link href="#klub" className="hover:text-orange-400 transition-colors">
           Klub
         </Link>
-        <Link
+        <a
           href="/turnieje"
           className="text-orange-400 hover:text-orange-300 transition-colors flex items-center gap-1 font-bold"
         >
           Turnieje
-        </Link>
+        </a>
         <Link href="#opinie" className="hover:text-orange-400 transition-colors">
           Opinie
         </Link>
@@ -84,12 +84,12 @@ export default function Navbar() {
           </a>
         </div>
 
-        <Link
+        <a
           href="/turnieje"
           className="hidden sm:inline-flex lg:hidden text-xs font-bold text-orange-400 hover:text-orange-300 px-3 py-2 rounded-xl bg-navy-800/80 border border-orange-500/25 transition-all"
         >
           Turnieje
-        </Link>
+        </a>
         <a
           href="https://kluby.org/baza-padel-club"
           target="_blank"
