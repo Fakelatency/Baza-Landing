@@ -48,11 +48,12 @@ export default function Hero() {
         <div className="flex items-center gap-4 mt-auto pt-8 border-t border-navy-300/15">
           <div className="flex -space-x-3">
             <span className="w-10 h-10 rounded-full bg-navy-800 text-gold-400 flex items-center justify-center font-bold text-sm border-2 border-navy-700 shadow-md">KB</span>
-            <span className="w-10 h-10 rounded-full bg-navy-700 text-navy-100 flex items-center justify-center font-bold text-sm border-2 border-navy-600 shadow-md">K</span>
+            <span className="w-10 h-10 rounded-full bg-navy-700 text-navy-100 flex items-center justify-center font-bold text-sm border-2 border-navy-600 shadow-md">KM</span>
+            <span className="w-10 h-10 rounded-full bg-navy-800 text-gold-400 flex items-center justify-center font-bold text-sm border-2 border-navy-700 shadow-md">DL</span>
           </div>
           <p className="text-navy-200 text-sm leading-tight">
             <strong className="text-white block font-semibold">Trenuj z najlepszymi</strong>
-            2 certyfikowanych trenerów • każdy poziom gry
+            3 certyfikowanych trenerów • każdy poziom gry
           </p>
         </div>
       </div>
